@@ -1,0 +1,24 @@
+.class-frm-frmCalculate{
+    display: grid;
+    width: 200px;
+    height: 300px;
+    background: dimgrey;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+.frmCalculate {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px ;
+    grid-template-rows: 40px 40px 40px 40px 40px;
+    margin: auto;
+    padding: 10px;
+    grid-column-gap: 4px;
+    grid-row-gap: 2px;
+    text-align: center;
+    background: red;
+}
+#txtExpression{
+    width: 195px;
+    height:60px;
+}
